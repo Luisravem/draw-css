@@ -1,0 +1,357 @@
+:root{
+    --background-menu: #f1f1f1;
+    --color-text:#00c2cb;
+    --color-gamer:#00473f;
+    --color-gamer-oscuro:#003630;
+    --color-segundario:#8ca03c;
+    
+    
+}
+
+/*STYLES MAIN*/
+.content-main{
+    display: flex;
+    block-size: 900px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*STYLE PRODUCT*/
+.content-product{
+    inline-size: 300px;
+    block-size: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.content-1{
+    display: flex;
+    inline-size: 100%;
+    block-size: 100px;
+}
+.content-1 .item1,.item3{
+    position: relative;
+    z-index: 10;
+    inline-size: 3%;
+    block-size: 100%;
+    background-color: var(--color-segundario);
+    border-radius: 5px 5px 0 0;
+
+
+}
+.content-1 .item2{
+    inline-size: 100%;
+    block-size: 90%;
+    background-color: var(--color-gamer);
+    align-self: flex-end;
+    box-shadow:inset -1px -0px 3px rgb(0, 0, 0),inset 1px 0px 3px rgb(0, 0, 0);
+}
+
+/*contenedor 2*/
+
+.content-2{
+    display: flex;
+    inline-size: 100%;
+    justify-content: center;
+}
+.content-2 .item4,.item6{
+    inline-size: 3%;
+    block-size: 50%;
+    background-color: var(--color-segundario);
+
+}
+.content-2 .item4{
+    position: relative;
+    height: 40px;
+    transform: rotate(-15deg);
+    top: -2px;
+    left: 5px;
+    box-shadow: 2px 0px 3px rgb(0, 0, 0);
+}
+.content-2 .item6{
+    position: relative;
+    height: 100%;
+    transform: rotate(15deg);
+    top: -2px;
+    right: 5px;
+    box-shadow: -2px -0px 3px rgb(0, 0, 0);
+}
+.content-2 .item5{
+    inline-size: 100%;
+    border-top: 40px solid var(--color-gamer-oscuro);
+    border-left: 10px solid white;
+    border-top: 40px solid var(--color-gamer-oscuro);
+    border-right: 10px solid white;
+    
+}
+/*content 3*/
+.content-3{
+    position: relative;
+    top: -3px;
+    display: flex;
+    inline-size: 93%;
+    block-size: 180px;
+    justify-content: center;
+    z-index: 3;
+}
+.content-3 .item7,.item9{
+    position: relative;
+    z-index: 10;
+    inline-size: 3%;
+    block-size: 100%;
+    background-color: var(--color-segundario);
+
+
+}
+.display{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 150px;
+    width: 200px;
+    z-index: 20;
+    background-color: rgb(49, 49, 49);
+    box-shadow:inset -0px -1px 4px #0000006b;
+    position:r
+}
+.display-2{
+    height: 90%;
+    width: 90%;
+    border-top-left-radius: 5% 80%;
+    border-bottom-left-radius: 5% 80%;
+    border-bottom-right-radius: 5% 80%;
+    border-top-right-radius: 5% 80%;
+    overflow: hidden;
+    box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.493);
+    background:radial-gradient(circle 200px at 50% 50%, #646464,rgb(24, 24, 24));
+    transition: .5s;
+
+}
+.display-2js{
+    background-image: 
+    url(https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80),           
+    url(https://images.unsplash.com/photo-1578632767115-351597cf2477?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    opacity: 90%;
+    background-size: 90px 150px;
+    background-repeat: no-repeat,repeat-x;
+    box-shadow: 5px 0px  30px  rgb(237, 100, 100), -5px 0px  30px  rgb(0, 132, 255),inset 0 0 2px 1px rgba(0, 0, 0, 0.493);
+
+}
+.content-3 .item8{
+
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: var(--color-gamer);
+    box-shadow:inset -1px -0px 3px rgb(0, 0, 0),inset 1px 0px 3px rgb(0, 0, 0);
+}
+/*contenedor 4*/
+.content-4{
+    display: flex;
+    position: relative;
+    top: -3px;
+    height: 8%;
+    width: 100%;
+
+}
+.content-4 .item10,.item12{
+    inline-size: 3%;
+    block-size: 50%;
+    background-color: var(--color-segundario);
+    z-index: 2;
+    
+}
+.content-4 .item10{
+    position: relative;
+    height: 100%;
+    transform: rotate(11deg);
+    top: -1px;
+    left: 7px;
+    box-shadow: 1px 0px 3px rgb(0, 0, 0);
+}
+.content-4 .item12{
+    position: relative;
+    height: 100%;
+    transform: rotate(-11deg);
+    top: -1px;
+    right: 7px;
+    box-shadow: -1px -0px 3px rgb(0, 0, 0);
+}
+.content-4 .item11{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    top: -11px;
+    inline-size: 99%;
+    border-bottom: 50px solid var(--color-gamer-oscuro);
+    border-left: 3px solid white;
+    border-bottom: 50px solid var(--color-gamer-oscuro);
+    border-right: 3px solid white;
+    
+}
+/*tabla de mandos*/
+.content-joystick{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+ 
+    top: 32px;
+    border: 2px solid #98be00;
+    box-shadow: 1px 1px 5px rgb(248, 244, 0);
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 60px;
+}
+.palanca{
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height: 20px;
+    width: 15px;
+}
+
+.joystick{
+    display: flex;
+    position: relative;
+    height: 10px;
+    width: 3px;
+    background-color: rgb(0, 0, 0);
+}
+.bola{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background:radial-gradient(circle 10px at 50% 100%,#ebfca9,var(--color-segundario));
+}
+/*teclas*/
+.content-teclas{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    transform: rotate(135deg);
+    border: 1px 0 1px 0 solid red;
+    background-color: var(--color-gamer);
+}
+.teclas{
+    width: 13px;
+    height: 5px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    box-shadow:-1px -1px rgb(0, 0, 0);
+}
+.teclas:nth-child(1){
+    background-color: rgb(64, 255, 47);
+}
+.teclas:nth-child(2){
+    background-color: rgb(248, 47, 255);
+}
+.teclas:nth-child(3){
+    background-color: rgb(47, 172, 255);
+}
+.teclas:nth-child(4){
+    background-color: rgb(255, 147, 47);
+}
+.line{
+    height: 50px;
+    width: 1px;
+    box-shadow: 2px 2px 5px var(--color-segundario);
+}
+/*content 5*/
+.content-5{
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    inline-size: 100%;
+    block-size: 100px;
+}
+.content-5 .item13,.item15{
+    position: relative;
+    z-index: 10;
+    inline-size: 3%;
+    block-size: 200px;
+    background-color: var(--color-segundario);
+
+}
+.content-5 .item14{
+    display: flex;
+    justify-content: center;
+    inline-size: 92%;
+    block-size: 200px;
+    background-color: var(--color-gamer);
+    box-shadow:inset -1px -0px 3px rgb(0, 0, 0),inset 1px 0px 3px rgb(0, 0, 0);
+}
+.content-power-monedero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 1px 3px,-1px -1px 3px;
+    margin-top: 5px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(49, 49, 49);
+}
+.power{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border-color:red;
+    border-width: 5px;
+    background:radial-gradient(circle 10px at 50% 50%,#ffbcd0ec,#ff004c);
+}
+
+.powerjs{
+    box-shadow: 0 0 5px 2px red;
+}
+.monedero{
+    width: 3px;
+    height: 15px;
+    background-color: #000;
+}
+.content-6{
+    position: relative;
+    top: 45px;
+    z-index: 10;
+    inline-size: 292px;
+    block-size: 10px;
+    border-radius: 10%;
+    box-shadow: 0px -1px 1px black;
+    background:radial-gradient(circle 500px at 50% 50%, #3d3d3d,rgb(24, 24, 24));
+}
+
+
+.dimenciones{
+    background-color: #0059be;
+    inline-size: 200px;
+    block-size: 200px;
+    background-image: linear-gradient(red, green);
+
+}
+
+
+
+
+

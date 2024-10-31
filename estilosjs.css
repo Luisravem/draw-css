@@ -1,0 +1,21 @@
+.displayjs{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 150px;
+    width: 200px;
+    z-index: 20;
+    background-color: rgb(49, 49, 49);
+    box-shadow:inset -0px -1px 4px #ffffff70;
+}
+.displayjs-2{
+    height: 90%;
+    width: 90%;
+    border-top-left-radius: 5% 80%;
+    border-bottom-left-radius: 5% 80%;
+    border-bottom-right-radius: 5% 80%;
+    border-top-right-radius: 5% 80%;
+    background:radial-gradient(circle 200px at 50% 50%, #646464,rgb(24, 24, 24));
+}
